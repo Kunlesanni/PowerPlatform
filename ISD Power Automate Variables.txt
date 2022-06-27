@@ -1,0 +1,22 @@
+AWS Account Type: outputs('Get_response_details')?['body/r01aa956eb87340b8aeb88102b527ed3c']
+if(empty(outputs('Get_response_details')?['body/r01aa956eb87340b8aeb88102b527ed3c']),'Not Applicable',outputs('Get_response_details')?['body/r01aa956eb87340b8aeb88102b527ed3c'])
+
+Environment Owner: outputs('Get_response_details')?['body/rd3c096cc3a054d28a8daa78a3eefb330']
+if(empty(outputs('Get_response_details')?['body/rd3c096cc3a054d28a8daa78a3eefb330']),'Not Applicable',outputs('Get_response_details')?['body/rd3c096cc3a054d28a8daa78a3eefb330'])
+
+Environment Name: outputs('Get_response_details')?['body/r7ffe64547ac64d8e9fbf0dead9df4573']
+if(empty(outputs('Get_response_details')?['body/r7ffe64547ac64d8e9fbf0dead9df4573']),'Not Applicable',outputs('Get_response_details')?['body/r7ffe64547ac64d8e9fbf0dead9df4573'])
+
+Service ID:  variables('Final Service ID')
+if(empty(variables('Final Service ID')),'Not Applicable',variables('Final Service ID'))
+
+Budget Owner:  outputs('Get_response_details')?['body/ra9a0fb8361904ed6b5a871f34111a31d']
+if(empty(outputs('Get_response_details')?['body/ra9a0fb8361904ed6b5a871f34111a31d']),'Not Applicable',outputs('Get_response_details')?['body/ra9a0fb8361904ed6b5a871f34111a31d'])
+
+Budget Code:  outputs('Get_response_details')?['body/ra66123e47e034c58b4b1838a5681bc81']
+if(empty(outputs('Get_response_details')?['body/ra66123e47e034c58b4b1838a5681bc81']),'Not Applicable',outputs('Get_response_details')?['body/ra66123e47e034c58b4b1838a5681bc81'])
+
+Service Identitfier:  outputs('Get_response_details')?['body/rfeb9b370c1d3415ca80c048d8b398b48']
+if(empty(outputs('Get_response_details')?['body/rfeb9b370c1d3415ca80c048d8b398b48']),'Not Applicable',outputs('Get_response_details')?['body/rfeb9b370c1d3415ca80c048d8b398b48'])
+
+
