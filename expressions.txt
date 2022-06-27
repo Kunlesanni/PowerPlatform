@@ -1,3 +1,15 @@
 # Replace string in a variable
 # The examble below will replace it with 'Not Applicable' if the input is empty, else use the original input
+
 if(empty(variables('Final Service ID')),'Not Applicable',variables('Final Service ID'))
+
+
+# if(empty(),'true input','false input')
+# input = outputs('Get_response_details')?['body/r01aa956eb87340b8aeb88102b527ed3c']
+
+# input example
+# input: outputs('Get_response_details')?['body/r01aa956eb87340b8aeb88102b527ed3c']
+
+
+if(empty(outputs('Get_response_details')?['body/r01aa956eb87340b8aeb88102b527ed3c']),'Not Applicable',outputs('Get_response_details')?['body/r01aa956eb87340b8aeb88102b527ed3c'])
+
