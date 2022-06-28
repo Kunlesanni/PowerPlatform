@@ -1,3 +1,7 @@
+
+Personal Data?
+variables('varShortenLongText')?['My service will NOT contain any of the data types identified']
+
 AWS Account Type: outputs('Get_response_details')?['body/r01aa956eb87340b8aeb88102b527ed3c']
 if(empty(outputs('Get_response_details')?['body/r01aa956eb87340b8aeb88102b527ed3c']),'Not Applicable',outputs('Get_response_details')?['body/r01aa956eb87340b8aeb88102b527ed3c'])
 
