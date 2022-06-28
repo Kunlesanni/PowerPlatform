@@ -2,6 +2,9 @@
 Personal Data?
 variables('varShortenLongText')?['My service will NOT contain any of the data types identified']
 
+Existing ISD Service
+variables('varShortenLongText')?['I just need a Sandbox(Azure Only) to carry out a Proof of Concept (i.e Subscription access to create/deploy Resources in Non-prod environments)']
+
 AWS Account Type: outputs('Get_response_details')?['body/r01aa956eb87340b8aeb88102b527ed3c']
 if(empty(outputs('Get_response_details')?['body/r01aa956eb87340b8aeb88102b527ed3c']),'Not Applicable',outputs('Get_response_details')?['body/r01aa956eb87340b8aeb88102b527ed3c'])
 
