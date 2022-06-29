@@ -26,5 +26,3 @@ if(empty(outputs('Get_response_details')?['body/ra531c98a07e6417a8b4de852ee73c83
 Service Identitfier:  outputs('Get_response_details')?['body/rfeb9b370c1d3415ca80c048d8b398b48']
 if(empty(outputs('Get_response_details')?['body/rfeb9b370c1d3415ca80c048d8b398b48']),'Not Applicable',outputs('Get_response_details')?['body/rfeb9b370c1d3415ca80c048d8b398b48'])
 
-
-
